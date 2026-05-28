@@ -19,7 +19,7 @@ import {
 
 const { width, height } = Dimensions.get('window');
 
-// --- ENHANCED MOCK DATA ---
+// --- MOCK DATA ---
 const books = [
   {
     id: '1',
@@ -188,7 +188,7 @@ const validatePassword = (password) => {
   return { hasMinLength, hasUpperCase, hasSymbol, isValid: hasMinLength && hasUpperCase && hasSymbol };
 };
 
-// --- ENHANCED COMPONENTS ---
+// --- COMPONENTS ---
 
 const CustomInput = ({ 
   placeholder, 
